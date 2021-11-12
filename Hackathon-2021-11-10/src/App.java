@@ -14,7 +14,8 @@ public class App {
         Notebook n2 = new Notebook(21, "giasdfg", "asdfasddsdf", 123412);
         Workstation w1 = new Workstation(23123, "dasd", "asdfas", 61234);
         Workstation w2 = new Workstation(233, "dasdaasdf", "assddfas", 61234);
-        
+        ArrayList<Computer> computer = new ArrayList<Computer>();
+        computer.add(new Computer(5512, "asdf", "asdf", 123));
         hardware.add(p1);
         hardware.add(p2);
         //double besser
